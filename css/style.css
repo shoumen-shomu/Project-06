@@ -455,12 +455,12 @@ input::placeholder {
   font-family: "Nunito", sans-serif;
   transition: 0.4s;
 }
-.footercommon ul li a:hover {
+/* .footercommon ul li a:hover {
   color: #ff5538;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
-}
+} */
 .policyPart {
   display: flex;
   justify-content: space-between;
