@@ -1,0 +1,481 @@
+/* All Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/* All Common CSS End */
+/* Nav Bar Css Start */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav-link {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 30px 0;
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+.nav-item {
+  margin: 0 5px;
+}
+.nav-item i {
+  margin-left: 10px;
+}
+.navBtn a {
+  padding: 14px 28px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  line-height: 200%;
+  border: 2px solid #ffffff;
+  border-radius: 18px;
+}
+/* Nav Bar Css End */
+/* Banner Part CSS Start */
+#bannerPart {
+  padding-top: 190px;
+  padding-bottom: 100px;
+  background: url(../images/Header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerOption a {
+  color: #c4c4c4;
+  padding: 10px 15px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin: 15px;
+}
+.bannerContent h1 {
+  color: #bababa;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 160%;
+  text-transform: capitalize;
+  padding: 0 20px;
+}
+.bannerContent p {
+  color: #bababa;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  line-height: 200%;
+  padding: 0 160px;
+  margin-bottom: 50px;
+}
+.bannerForm {
+  position: relative;
+}
+.bannerForm input {
+  padding: 30px 400px 30px 30px;
+  border-radius: 20px;
+}
+input::placeholder {
+  color: #29313d;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+}
+.bannerForm {
+  padding-bottom: 700px;
+}
+.bannerForm a {
+  padding: 31px 50px;
+  background: #6a55ea;
+  color: #ffffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 2px;
+  right: 212px;
+}
+/* Banner Part CSS End */
+
+/* Section Part CSS Start */
+#servicenPart {
+  padding-bottom: 80px;
+}
+.commonHeader p {
+  color: #7968ef;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 10px;
+}
+.commonHeader h2 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding-bottom: 60px;
+}
+.servicecontentLeft p {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  font-family: "Nunito", sans-serif;
+  padding-top: 35px;
+  padding-bottom: 80px;
+  text-transform: capitalize;
+}
+.servicecontentRight {
+  margin-left: 20px;
+}
+.common {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 40px;
+  border-radius: 20px;
+}
+.commonImg {
+  margin-right: 30px;
+}
+.commonText h3 {
+  color: #29313d;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.commonText p {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  line-height: 200%;
+}
+.seoConsultancy {
+  background: #f0edff;
+}
+.competitorAnalysis {
+  background: #fef6ec;
+}
+.socialmediaMarketing {
+  background: #e8fcf2;
+}
+/* Section Part CSS End */
+
+/* Traffic Part CSS Start */
+#trafficPart {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.trafficText p {
+  color: #7968ef;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: "Nunito", sans-serif;
+}
+.trafficText h2 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+.trafficText span {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+}
+.trafficProgressBar {
+  padding-top: 40px;
+}
+.trafficImg {
+  padding-left: 75px;
+}
+/* Traffic Part CSS End */
+
+/* Process Part CSS Start */
+#processPart {
+  padding-bottom: 200px;
+}
+.commonCard {
+  padding: 40px 15px;
+  border-radius: 14px;
+}
+.commonCard p {
+  color: #29313d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  padding-top: 30px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.cardOne {
+  background: #f8a64c;
+}
+.cardTwo {
+  background: #f0edff;
+}
+.cardThree {
+  background: #e8fcf2;
+}
+.cardFour {
+  background: #fef6ec;
+}
+.cardDetails {
+  padding-top: 80px;
+}
+.carddetailsText h3 {
+  color: #29313d;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.carddetailsText p {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  padding-top: 25px;
+  padding-bottom: 48px;
+}
+.carddetailsText a {
+  padding: 30px;
+  background: #6a55ea;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  line-height: 100%;
+  border: 1px solid #6a55ea;
+  transition: 0.4s;
+}
+.carddetailsText a:hover {
+  background: transparent;
+  border: 1px solid #6a55ea;
+  color: #6a55ea;
+}
+/* Process Part CSS End */
+
+/* Works Part CSS Start */
+#workPart {
+  padding-bottom: 100px;
+}
+.workText {
+  padding-bottom: 40px;
+}
+.workText p {
+  color: #7968ef;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: "Nunito", sans-serif;
+}
+.workText h2 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.workBtn a {
+  padding: 20px 30px;
+  background: #6a55ea;
+  border-radius: 14px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  line-height: 100%;
+  border: 1px solid #6a55ea;
+  transition: 0.4s al;
+}
+.workBtn a:hover {
+  background: transparent;
+  border: 1px solid #6a55ea;
+  color: #6a55ea;
+}
+.Works h3 {
+  color: #29313d;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: "Poppins", sans-serif;
+  padding-top: 24px;
+  padding-bottom: 14px;
+  text-transform: capitalize;
+}
+.Works p {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+}
+/* Works Part CSS End */
+
+/* Analytics Part CSS Start */
+.analyticsbackground {
+  background: url(../images/analyticsback.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  border-radius: 55px;
+  margin-bottom: 120px;
+}
+.analyticsContent h2 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Poppins", sans-serif;
+}
+.analyticsContent p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  font-family: "Nunito", sans-serif;
+  padding: 0 360px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+}
+.analyticsForm {
+  position: relative;
+}
+.analyticsForm input {
+  padding: 30px 200px 30px 30px;
+  border-radius: 20px;
+}
+input::placeholder {
+  color: #29313d;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+}
+.analyticsForm a {
+    padding: 31px 20px;
+    background: #6a55ea;
+    color: #ffffff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 2px;
+    right: 385px;
+}
+
+/* Analytics Part CSS End */
+/* Footer Part css Start */
+#footerPart {
+  padding: 145px 0;
+}
+/* .footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.logoPart p {
+  width: 449px;
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  padding-top: 40px;
+}
+.footercommon h5 {
+  color: #29313d;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 20px;
+}
+.footercommon ul li a {
+  padding: 10px 0;
+  color: #29313d;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Nunito", sans-serif;
+  transition: 0.4s;
+}
+.footercommon ul li a:hover {
+  color: #ff5538;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+.policyPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.allrights {
+  width: 75%;
+}
+.policyPart p {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+} */
+/* Footer Part css End */
+
