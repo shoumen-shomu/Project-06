@@ -422,7 +422,7 @@ input::placeholder {
 #footerPart {
   padding: 145px 0;
 }
-/* .footer {
+.footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -476,6 +476,6 @@ input::placeholder {
   line-height: 180%;
   font-family: "Nunito", sans-serif;
   text-transform: capitalize;
-} */
+} 
 /* Footer Part css End */
 
